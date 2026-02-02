@@ -9,24 +9,24 @@ const achievements = [
     description: "Third place in the annual coding hackathon.",
     icon: <Trophy className="w-8 h-8 text-yellow-500" />
   },
-  // {
-  //   title: "Top Contributor, Open Source Project",
-  //   date: "2024",
-  //   description: "Recognized as a top contributor to a major open-source framework with over 50 accepted pull requests.",
-  //   icon: <Star className="w-8 h-8 text-yellow-500" />
-  // },
-  // {
-  //   title: "Dean's List for Academic Excellence",
-  //   date: "2023",
-  //   description: "Maintained a perfect GPA and received recognition for outstanding academic performance.",
-  //   icon: <Award className="w-8 h-8 text-yellow-500" />
-  // },
-  // {
-  //   title: "Published Research Paper",
-  //   date: "2024",
-  //   description: "Co-authored a research paper on optimizing database performance that was published in a leading tech journal.",
-  //   icon: <FileText className="w-8 h-8 text-yellow-500" />
-  // }
+   {
+    title: "Top Contributor, Open Source Project",
+    date: "2024",
+    description: "Recognized as a top contributor to a major open-source framework with over 50 accepted pull requests.",
+    icon: <Star className="w-8 h-8 text-yellow-500" />
+  },
+  {
+    title: "Dean's List for Academic Excellence",
+    date: "2023",
+    description: "Maintained a perfect GPA and received recognition for outstanding academic performance.",
+    icon: <Award className="w-8 h-8 text-yellow-500" />
+  },
+  {
+    title: "Published Research Paper",
+    date: "2024",
+    description: "Co-authored a research paper on optimizing database performance that was published in a leading tech journal.",
+    icon: <FileText className="w-8 h-8 text-yellow-500" />
+  }
 ];
 
 const certificates = [
