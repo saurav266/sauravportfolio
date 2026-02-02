@@ -4,48 +4,28 @@ import { ArrowUpRight, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "Dictionary App",
-    description: "A comprehensive dictionary application with word definitions, pronunciations, and examples",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
-    link: "http://saurav-dictionary-23bc69.netlify.app",
-    github: "https://github.com/saurav266/Dictionary-app"
-  },
-  {
-    title: "Tic Tac Toe",
-    description: "Tic-tac-toe is a game for two players where they take turns marking a grid with Xs or Os. The first player to get three of their marks in a row wins",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&q=80",
-    link: "https://saurav-game-tic-tac-toe.netlify.app/",
+    title: "CureWrapPlus",
+    description: "A healthcare-focused web platform designed to manage medical services, patient interactions, and digital health workflows with a user-friendly interface.",
+    image: "https://images.unsplash.com/photo-1580281657521-6c6d1c25b8f9?auto=format&fit=crop&w=800&q=80",
+    link: "https://www.curewrapplus.com/", // add live URL if deployed
     github: "https://github.com/saurav266"
   },
   {
-    title: "Coming",
-    description: "",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-    link: "#",
+    title: "ApkaKitchen",
+    description: "An online food ordering and kitchen management application that connects users with local kitchens, enabling seamless ordering and real-time updates.",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+    link: "https://www.apkakitchen.com/", // add live URL if deployed
     github: "https://github.com/saurav266"
   },
   {
-    title: "Social Media Platform",
-    description: "Community-driven platform with real-time messaging and content sharing capabilities",
-    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&q=80",
-    link: "#",
-    github: "https://github.com/saurav266"
-  },
-  {
-    title: "Weather Application",
-    description: "Real-time weather tracking with interactive maps and detailed forecasts for global locations",
+    title: "Microservices Architecture Project",
+    description: "A scalable microservices-based system implementing REST APIs, service-to-service communication, and modular backend design using modern DevOps practices.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-    link: "http://saurav-dictionary-23bc69.netlify.app",
-    github: "https://github.com/saurav266"
-  },
-  {
-    title: "Fitness Tracking App",
-    description: "Personal workout planner with progress tracking and analytics for health optimization",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
     link: "#",
     github: "https://github.com/saurav266"
   }
 ];
+
 
 const Projects = () => {
   return (
