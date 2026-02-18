@@ -45,7 +45,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/saurav-kumar-05a7502a7/"
+            href="https://www.linkedin.com/in/saurav-kumar-softwareengineer/"
             target="_blank"
             rel="noopener noreferrer"
             className="glass px-6 py-4 rounded-xl flex items-center gap-3 hover:bg-primary/5 transition-all duration-300 shadow-sm hover:shadow-md"
