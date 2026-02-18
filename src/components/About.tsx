@@ -1,107 +1,106 @@
-
 import React from 'react';
-import { User, Briefcase, Award, Code, Rocket, Heart } from 'lucide-react';
-
-const experiences = [
-  // {
-  //   role: "Senior Frontend Developer",
-  //   company: "Tech Solutions Inc",
-  //   period: "2021 - Present",
-  //   description: "Leading development of enterprise web applications and mentoring junior developers"
-  // },
-  // {
-  //   role: "Frontend Developer",
-  //   company: "Digital Agency",
-  //   period: "2019 - 2021",
-  //   description: "Built responsive web applications and implemented modern UI/UX designs"
-  // },
-  // {
-  //   role: "Junior Developer",
-  //   company: "Startup Hub",
-  //   period: "2018 - 2019",
-  //   description: "Developed and maintained client websites while learning best practices"
-  // }
-];
+import { Briefcase, Code, Rocket, Cloud, Server, Database } from 'lucide-react';
 
 const About = () => {
   return (
     <section className="py-24 px-6 group transition-all duration-300 hover:bg-primary/5" id="about">
-      <div className="container max-w-6xl">
-        <div className="grid gap-12 md:grid-cols-2">
+      <div className="container max-w-6xl mx-auto">
+
+        {/* ===== SECTION HEADER ===== */}
+        <div className="text-center mb-16">
+          <span className="text-primary text-sm tracking-wider uppercase">
+            About Me
+          </span>
+          <h2 className="text-3xl md:text-4xl font-bold mt-4">
+            DevOps Engineer, Software Engineer & Full-Stack Developer
+          </h2>
+        </div>
+
+        {/* ===== MAIN GRID ===== */}
+        <div className="grid gap-12 md:grid-cols-2 items-center">
+
+          {/* LEFT CONTENT */}
           <div className="space-y-6">
-            <span className="text-primary text-sm tracking-wider uppercase">About Me</span>
-            <h2 className="text-3xl md:text-4xl font-bold">Passionate Developer & Creative Problem Solver</h2>
-            <p className="text-muted-foreground text-lg">
-              Hi my name is Saurav kumar , I specialize in creating intuitive and performant applications that solve real-world problems. My journey in tech started with a curiosity about how things work on the web, and it has evolved into a passion for building exceptional digital experiences.
+
+            <p className="text-muted-foreground text-lg leading-relaxed">
+              Hi, I'm <strong>Saurav Kumar</strong> — a DevOps Engineer, 
+              Software Engineer, and Full-Stack Developer specializing in 
+              building scalable cloud-native applications and automated 
+              infrastructure solutions.
             </p>
-            <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20">
+
+            <p className="text-muted-foreground text-lg leading-relaxed">
+              I design and deploy production-ready systems using 
+              <strong> AWS, Kubernetes, Docker, CI/CD pipelines, Terraform, and Linux</strong>. 
+              I also build full-stack applications using 
+              <strong> React, TypeScript, Node.js, and modern backend architectures</strong>.
+            </p>
+
+            <p className="text-muted-foreground text-lg leading-relaxed">
+              My expertise bridges development and operations — enabling faster 
+              deployments, reliable infrastructure, microservices architecture, 
+              REST APIs, and performance-optimized applications.
+            </p>
+
+          </div>
+
+          {/* RIGHT PROFILE IMAGE */}
+          <div className="flex justify-center">
+            <div className="relative w-60 h-60 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
               <img
                 src="/saurav-uploads/bb61c1c9-0661-4628-9958-f9088ce82a03.png"
-                alt="Profile"
+                alt="Saurav Kumar - DevOps Engineer and Full Stack Developer"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
-          
-          <div className="grid gap-6 md:grid-cols-2">
-            <div className="glass p-6 rounded-lg space-y-3">
-              <Code className="w-8 h-8 text-primary" />
-              <h3 className="font-semibold">Technical Skills</h3>
-              <p className="text-muted-foreground">Expert in React, TypeScript, and modern web technologies</p>
-            </div>
-            
-            <div className="glass p-6 rounded-lg space-y-3">
-              <Rocket className="w-8 h-8 text-primary" />
-              <h3 className="font-semibold">Innovation</h3>
-              <p className="text-muted-foreground">Always exploring new technologies and best practices</p>
-            </div>
-            
-            <div className="glass p-6 rounded-lg space-y-3">
-              <Heart className="w-8 h-8 text-primary" />
-              <h3 className="font-semibold">Passion</h3>
-              <p className="text-muted-foreground">Dedicated to creating meaningful user experiences</p>
-            </div>
-
-            <div className="glass p-6 rounded-lg space-y-3">
-              <Briefcase className="w-8 h-8 text-primary" />
-              <h3 className="font-semibold">Experience</h3>
-              <p className="text-muted-foreground">Worked with startups and enterprise companies</p>
-            </div>
-          </div>
         </div>
 
-        <div className="mt-16 space-y-8">
-          <div className="prose max-w-none">
-            <h3 className="text-2xl font-semibold mb-4">My Journey</h3>
+        {/* ===== SKILL CARDS ===== */}
+        <div className="mt-20 grid gap-6 md:grid-cols-3">
+
+          <div className="glass p-6 rounded-lg space-y-3">
+            <Cloud className="w-8 h-8 text-primary" />
+            <h3 className="font-semibold text-lg">Cloud & DevOps</h3>
             <p className="text-muted-foreground">
-              I began my career with a strong foundation in computer science and quickly discovered my passion for Full-Stack development. Over the years, I've had the opportunity to work on diverse projects ranging from e-commerce platforms to complex enterprise applications. What drives me is the perfect blend of technical challenge and creative expression that web development offers.
-            </p>
-            <p className="text-muted-foreground mt-4">
-              Outside of coding, I'm an active contributor to the developer community, sharing knowledge through blog posts and open-source contributions. I believe in continuous learning and staying updated with the latest industry trends and technologies.
+              AWS (EC2, S3, RDS, IAM), Kubernetes, Docker, CI/CD automation, 
+              Infrastructure as Code with Terraform.
             </p>
           </div>
+
+          <div className="glass p-6 rounded-lg space-y-3">
+            <Code className="w-8 h-8 text-primary" />
+            <h3 className="font-semibold text-lg">Frontend Development</h3>
+            <p className="text-muted-foreground">
+              React, TypeScript, Tailwind CSS, modern UI architecture, 
+              responsive and high-performance web applications.
+            </p>
+          </div>
+
+          <div className="glass p-6 rounded-lg space-y-3">
+            <Database className="w-8 h-8 text-primary" />
+            <h3 className="font-semibold text-lg">Backend & APIs</h3>
+            <p className="text-muted-foreground">
+              Node.js, Express, REST APIs, authentication, database integration 
+              (SQL & NoSQL), and microservices architecture.
+            </p>
+          </div>
+
         </div>
 
-        <div className="mt-24 space-y-8">
-          <div className="text-center space-y-4">
-            <span className="text-primary text-sm tracking-wider uppercase">Work Experience</span>
-            <h2 className="text-3xl font-bold">Professional Journey</h2>
-          </div>
-          
-          <div className="grid gap-6 md:grid-cols-3">
-            {experiences.map((exp, index) => (
-              <div key={index} className="glass p-6 rounded-lg space-y-4">
-                <Briefcase className="w-6 h-6 text-primary" />
-                <div>
-                  <h3 className="font-semibold text-lg">{exp.role}</h3>
-                  <p className="text-primary text-sm">{exp.company}</p>
-                  <p className="text-sm text-muted-foreground mt-1">{exp.period}</p>
-                </div>
-                <p className="text-muted-foreground">{exp.description}</p>
-              </div>
-            ))}
-          </div>
+        {/* ===== PROFESSIONAL VISION ===== */}
+        <div className="mt-24 text-center max-w-4xl mx-auto">
+          <h3 className="text-2xl font-semibold mb-6">
+            Professional Vision
+          </h3>
+          <p className="text-muted-foreground text-lg leading-relaxed">
+            My mission is to build secure, automated, and scalable systems 
+            that integrate robust backend services, modern frontend interfaces, 
+            and resilient cloud infrastructure — delivering high-quality 
+            end-to-end solutions.
+          </p>
         </div>
+
       </div>
     </section>
   );
