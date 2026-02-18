@@ -1,40 +1,72 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Saurav Kumar - Software Engineer Portfolio showcasing projects, skills and experience" />
-    <meta name="keywords" content="Saurav Kumar, Software Engineer, Web Developer, Portfolio, React, JavaScript, TypeScript" />
-    <meta name="author" content="Saurav Kumar" />
-    <title>Saurav Kumar - Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      (function() {
-        // This works for GitHub Pages
-        var location = window.location;
-        var redirect = location.search.match(/\?\/(.*)/);
-        
-        if (redirect && redirect.length > 1) {
-          // Remove the query parameter
-          history.replaceState(null, null, 
-            location.pathname.replace(/\/?$/, '/') +
-            redirect[1].replace(/&/g, '~and~').replace(/\?/g, '&') +
-            location.hash
-          );
-        }
-      })();
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>
+    Saurav Kumar | DevOps Engineer | Full-Stack Developer | AWS | Kubernetes
+  </title>
+
+  <meta name="description"
+    content="Saurav Kumar is a DevOps Engineer and Full-Stack Developer specializing in AWS, Kubernetes, Docker, CI/CD pipelines, Terraform, and scalable cloud-native applications.">
+
+  <meta name="keywords"
+    content="Saurav Kumar, DevOps Engineer, Full Stack Developer, AWS, Kubernetes, Docker, Terraform, CI/CD, React Developer, Cloud Engineer">
+
+  <meta name="author" content="Saurav Kumar">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title"
+    content="Saurav Kumar | DevOps Engineer & Full-Stack Developer">
+  <meta property="og:description"
+    content="AWS | Kubernetes | Docker | CI/CD | Terraform | React">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sauravin.netlify.app/">
+  <meta property="og:image" content="https://sauravin.netlify.app/preview.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="Saurav Kumar | DevOps Engineer & Full-Stack Developer">
+  <meta name="twitter:description"
+    content="Cloud-native infrastructure and scalable application development">
+  <meta name="twitter:image"
+    content="https://sauravin.netlify.app/preview.png">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Saurav Kumar",
+    "jobTitle": ["DevOps Engineer", "Full-Stack Developer"],
+    "url": "https://sauravin.netlify.app/",
+    "sameAs": [
+      "https://github.com/saurav266",
+      "https://www.linkedin.com/in/saurav-kumar-05a7502a7/"
+    ]
+  }
+  </script>
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- Remove GitHub Pages Redirect Script (NOT needed on Netlify) -->
+
+  <script type="module" src="/src/main.tsx"></script>
+</body>
 </html>
