@@ -48,8 +48,8 @@ const About = () => {
           <div className="flex justify-center">
             <div className="relative w-60 h-60 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
               <img
-                src="/saurav-uploads/bb61c1c9-0661-4628-9958-f9088ce82a03.png"
-                alt="Saurav Kumar - DevOps Engineer and Full Stack Developer"
+                src="/saurav-uploads/saurav-software-engineer.png"
+                alt="Saurav Kumar - Software Engineer, DevOps Engineer and Full Stack Developer"
                 className="w-full h-full object-cover"
               />
             </div>
