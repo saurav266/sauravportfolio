@@ -22,11 +22,8 @@ const Hero = () => {
 
         {/* MAIN SEO H1 */}
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
-          Saurav Kumar
-          <span className="text-primary block mt-3 text-2xl md:text-3xl font-semibold">
-            DevOps Engineer & Software Engineer
-          </span>
-        </h1>
+  Saurav Kumar – Software Engineer & DevOps Engineer
+</h1>
 
         {/* SEO Optimized Description */}
         <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto">
