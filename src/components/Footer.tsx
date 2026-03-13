@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
+import { Github, Linkedin, Mail, Instagram, Code } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -64,6 +64,15 @@ const Footer = () => {
               >
                 <Mail className="w-5 h-5" />
               </a>
+              <a
+  href="https://leetcode.com/saurav840963/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="p-2 rounded-full bg-secondary hover:bg-primary/10 transition-colors"
+  aria-label="LeetCode Profile"
+>
+  <Code className="w-5 h-5" />
+</a>
 
               <a
                 href="https://instagram.com"

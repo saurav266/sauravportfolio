@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin, Instagram, FileText, Download } from 'lucide-react';
+import { Mail, Github, Linkedin, Instagram, FileText, Download, Code } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -54,15 +54,15 @@ const Contact = () => {
             <span>LinkedIn</span>
           </a>
 
-          <a
-            href="https://leetcode.com/u/saurav840963/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="glass px-6 py-4 rounded-xl flex items-center gap-3 hover:bg-primary/5 transition-all duration-300 shadow-sm hover:shadow-md"
-          >
-            <FileText className="w-5 h-5 text-primary" />
-            <span>LeetCode</span>
-          </a>
+        <a
+  href="https://leetcode.com/saurav840963/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="glass px-6 py-4 rounded-xl flex items-center gap-3 hover:bg-primary/5 transition-all duration-300 shadow-sm hover:shadow-md"
+>
+  <Code className="w-5 h-5 text-primary" />
+  <span>LeetCode</span>
+</a>
 
           {/* Optional Resume Download */}
           <a
