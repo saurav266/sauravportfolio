@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Download, FileText, Calendar, Building2, GraduationCap, ChevronDown, ChevronUp, Eye, Award, Trophy, Medal, Star } from 'lucide-react';
-
+import resume from "../assets/Saurav_Kumar_Resume .pdf";
 const achievements = [
   {
     title: "Winner,  Coding Competition",
@@ -79,14 +79,23 @@ const Resume = () => {
           <p className="text-muted-foreground">
             A detailed view of my experiences, skills, and qualifications.
           </p>
-          <a
-            href="/saurav-uploads/4d13c76d-c50c-4cbf-939f-4b6757fe05f2.png"
-            download="Saurav_Resume.png"
-            className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-secondary bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-md gap-2"
-          >
-            Download Resume
-            <Download className="w-4 h-4" />
-          </a>
+        <a
+href={resume}
+  download="Saurav_Kumar_Resume.pdf"
+  className="inline-flex items-center justify-center text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-md gap-2"
+>
+  Download Resume
+  <Download className="w-4 h-4" />
+</a>
+<a
+href={resume}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center text-sm font-medium border border-primary text-primary hover:bg-primary/5 px-4 py-2 rounded-md gap-2 ml-3"
+>
+  View Resume
+  <Eye className="w-4 h-4" />
+</a>
         </div>
 
         <div className="grid grid-cols-1">
