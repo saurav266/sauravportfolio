@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Download, FileText, Calendar, Building2, GraduationCap, ChevronDown, ChevronUp, Eye, Award, Trophy, Medal, Star } from 'lucide-react';
-import resume from "../assets/Saurav_Kumar_Resume .pdf";
+import resume from "../assets/SauravCV (3) (1).pdf";
 const achievements = [
   {
     title: "Winner,  Coding Competition",
@@ -81,7 +81,7 @@ const Resume = () => {
           </p>
         <a
 href={resume}
-  download="Saurav_Kumar_Resume.pdf"
+  download="SauravCV(3).(1).pdf"
   className="inline-flex items-center justify-center text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-md gap-2"
 >
   Download Resume
